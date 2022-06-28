@@ -1,0 +1,26 @@
+//  LIFECYCLES  ///////////////////////////////////////////////////////////////
+[
+    {
+        id              : "alerts_bd0ed80f6a90fe54e858",
+        for_product     : "fixed_deposit",
+        version         : 1,
+        possible_events : [
+            "maturity-date",
+            "interest-update",
+            "nominee-update",
+        ],
+    },
+    {
+        id              : "alerts_a50b31731fed2d91e740",
+        for_product     : "savings_account",
+        version         : 1,
+        possible_events : [
+            "interest-update",
+            "beneficiary-update",
+            "nominee-update",
+            "third-party-transfers",
+            "card-transactions",
+            "balance-danger"
+        ],
+    }
+]

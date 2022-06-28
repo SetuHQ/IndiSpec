@@ -1,0 +1,28 @@
+//  CHECKLIST  ////////////////////////////////////////////////////////////////
+[
+    {
+        id          : "checklist_31d1cbd9c11ec48e4ee5",
+        for_product : "fixed_deposit",
+        version     : 1,
+        checklist   : [
+            "pan",
+            "aadhaar",
+            "address-proof",
+            "fund-transfer",
+            "active"
+        ],
+    },
+    {
+        id          : "checklist_7e84bc6e7ccc03cf6f82",
+        for_product : "savings_account",
+        version     : 1,
+        checklist   : [
+            "pan",
+            "aadhaar",
+            "address-proof",
+            "fund-transfer",
+            "active"
+        ],
+    },
+]
+

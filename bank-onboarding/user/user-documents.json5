@@ -1,0 +1,12 @@
+//  DOCUMENTS  ////////////////////////////////////////////////////////////////
+{
+    id          : "documents_c234e175181526fd9c10",
+    user_ref_id : "user_4e98030111faf394caf7",
+    documents   : [
+        {
+            name : "",
+            path : "URL",
+            type :  "PAN | Aadhaar | DL | Voter’s ID | Ration card | Other" // All Govt IDs
+        }
+    ]
+}

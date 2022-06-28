@@ -1,0 +1,35 @@
+//  FIXED DEPOSIT  ////////////////////////////////////////////////////////////
+{
+    id                    : "fd_0a51391f7d6bc9987b52",
+    user_ref_id           : "user_4e98030111faf394caf7",
+    journey_id            : "journey_481d9fb677c1f712909c",
+    lifecycle_ref_id      : "lifecycle_31d1cbd9c11ec48e4ee5",
+    nominee_ref_id        : "user_5f995979689146b7ea7f",
+    destination_account   : "savings_3384a50f1bc8c4121a01",
+    amount                : 5000000, // In paise
+    tenure_in_months      : 48,
+    interest_rate         : {
+        // Could be a longer list, so is this the best representation?
+        normal         : 5.0,
+        senior_citizen : 5.5,
+    },
+    starting_date         : "",
+    maturity_date         : "", // Computed
+    interest_option       : "Re-invest | Monthly | Quarterly",
+    on_maturity           : "Do not renew | Renew principal | Renew principal and interest",
+    // TODO: Move out over draft separately?
+    has_over_draft        : true,
+    over_draft_percentage : 75,
+    current_value         : 50063284, // In paise
+    send_alerts_for       : {
+        "maturity-date"  : [
+            "sms",
+            "whatsapp",
+            "email"
+        ],
+        "nominee-update" : [
+            "sms",
+            "whatsapp",
+        ]
+    },
+}

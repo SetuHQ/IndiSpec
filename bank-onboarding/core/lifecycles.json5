@@ -1,0 +1,28 @@
+//  LIFECYCLES  ///////////////////////////////////////////////////////////////
+[
+    {
+        id              : "lifecycle_31d1cbd9c11ec48e4ee5",
+        for_product     : "fixed_deposit",
+        version         : 1,
+        possible_states : [
+            "intent",
+            "kyc",
+            "video-kyc",
+            "fund-transfer",
+            "active"
+        ],
+    },
+    {
+        id              : "lifecycle_a50b31731fed2d91e740",
+        for_product     : "savings_account",
+        version         : 1,
+        possible_states : [
+            "intent",
+            "kyc",
+            "video-kyc",
+            "fund-transfer",
+            "active"
+        ],
+    }
+]
+

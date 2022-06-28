@@ -1,0 +1,65 @@
+// USER  /////////////////////////////////////////////////////////////////////
+//  This is the `user` object. Any customer on the platform is considered a
+//  user. Even `nominees`, are users, just with different amount of info. This
+//  is also done so that a `nominee` can be upgraded to a customer easily with
+//  the pre-existing data later on.
+//  ---------------------------------------------------------------------------
+//  flags
+//  This is a collection of boolean values that gives us a sense of where the
+//  users stands today. Many of the journeys depend on some of these values
+//  returning as true.
+//  ---------------------------------------------------------------------------
+//  is_owner_of
+//  An array of the product ids owned by this user. It means that this user
+//  started these journeys, and is in various stages of completion.
+//  ---------------------------------------------------------------------------
+//  is_nominee_for
+//  An array of the product ids owned by someone else, but has this person as
+//  the nominee. Nominees will likely have only this section populated. If and
+//  when they graduate to a user, other data gets populated, without breaking
+//  this relationship.
+//  ---------------------------------------------------------------------------
+//  ***-ids
+//  A collection of identifiers pointing to more information about this user
+//  ---------------------------------------------------------------------------
+
+{
+    user : {
+        id             : "user_4e98030111faf394caf7",
+        first_name     : "",
+        last_name      : "",
+        mobile         : "",
+        flags          : {
+            is_setu_app_user       : true,
+            is_first_consent_given : true,
+            is_mobile_verified     : true,
+            is_aadhaar_verified    : true,
+            is_pan_verified        : true,
+            is_email_verified      : true,
+            is_employed            : true,
+            is_video_KYC_complete  : true,
+        },
+        kyc_id         : "kyc_a165e23e5a5c50dea197",
+        documents_id   : "documents_c234e175181526fd9c10",
+        owner_of    : [
+            "p_loan_0a51391f7d6bc9987b52",
+            "fd_0a51391f7d6bc9987b52",
+            "cc_0a51391f7d6bc9987b52",
+        ],
+        nominee_for : [
+            "p_loan_0a51391f7d6bc9987b52",
+            "cc_781354aa6c8976b4ae82",
+            "savings_3384a50f1bc8c4121a01",
+        ],
+        addresses : [
+            "address_ab319748d4bd8bc68a14",
+            "address_7b8eec8aaf1b285162d9",
+        ],
+        relationships  : [
+            {
+                user_ref_id : "user_984eea56d296047a8b39",
+                relation    : "brother",
+            }
+        ]
+    }
+}
