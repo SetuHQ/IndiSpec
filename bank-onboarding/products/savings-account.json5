@@ -4,6 +4,9 @@
         id                         : "savings_3384a50f1bc8c4121a01",
         user_ref_id                : "user_4e98030111faf394caf7",
         nominee_ref_id             : "user_5f995979689146b7ea7f",
+        journey_id                 : "journey_481d9fb677c1f712909c",
+        lifecycle_ref_id           : "lifecycle_31d1cbd9c11ec48e4ee5",
+        alerts                     : "alerts_a50b31731fed2d91e740",
         status                     : "enum",
         name                       : "enum",
         account_number             : "",
@@ -15,22 +18,9 @@
         interest_rate              : "",
         minumum_balance            : 0, // In paise
         balance_calculation_period : "daily | monthly | quarterly | annual",
-        send_alerts_for            : {
-            "maturity-date"   : [
-                "sms",
-                "whatsapp",
-                "email"
-            ],
-            "nominee-update"  : [
-                "sms",
-                "whatsapp",
-            ],
-            "beneficiary-update" :  [],
-            "third-party-transfers" : [],
-            "card-transactions" :  [],
-            "balance-danger" : [
-                "whatsapp"
-            ]
+        declarations          : {
+            // Only product-specific declarations go here, others are global
+            is_factiva_consented_to : true
         }
     },
 }

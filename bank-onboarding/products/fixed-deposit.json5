@@ -6,6 +6,7 @@
     lifecycle_ref_id      : "lifecycle_31d1cbd9c11ec48e4ee5",
     nominee_ref_id        : "user_5f995979689146b7ea7f",
     destination_account   : "savings_3384a50f1bc8c4121a01",
+    alerts                : "alerts_a50b31731fed2d91e740",
     amount                : 5000000, // In paise
     tenure_in_months      : 48,
     interest_rate         : {
@@ -24,16 +25,5 @@
     declarations          : {
         // Only product-specific declarations go here, others are global
         is_factiva_consented_to : true
-    },
-    send_alerts_for       : {
-        "maturity-date"  : [
-            "sms",
-            "whatsapp",
-            "email"
-        ],
-        "nominee-update" : [
-            "sms",
-            "whatsapp",
-        ]
     },
 }

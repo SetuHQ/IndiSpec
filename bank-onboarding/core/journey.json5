@@ -1,7 +1,6 @@
 //  JOURNEY  //////////////////////////////////////////////////////////////////
 {
-    user_ref_id      : "user_4e98030111faf394caf7",
-    id               : "journey_481d9fb677c1f712909c",
-    selected_product : "fixed_deposit | savings_account | current_account | credit_card | business_loan | personal_loan",
-    checklist_id     : "checklist_31d1cbd9c11ec48e4ee5"
+    user_ref_id : "user_4e98030111faf394caf7",
+    id          : "journey_481d9fb677c1f712909c",
+    for_product : "fixed_deposit | savings_account | current_account | credit_card | business_loan | personal_loan",
 }

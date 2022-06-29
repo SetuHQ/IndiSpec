@@ -3,26 +3,37 @@
     {
         id              : "lifecycle_31d1cbd9c11ec48e4ee5",
         for_product     : "fixed_deposit",
-        version         : 1,
         possible_states : [
             "intent",
-            "kyc",
-            "video-kyc",
+            "configure",
             "fund-transfer",
+            "kyc",
+            "active"
+        ],
+    },
+    {
+        id              : "lifecycle_b9701985f7a83a4c6a2d",
+        for_product     : "fixed_deposit",
+        // Customised for HDFC, for example
+        possible_states : [
+            "intent",
+            "configure",
+            "fund-transfer",
+            "kyc",
+            "gst",
+            "video_kyc",
+            "nominee_details",
             "active"
         ],
     },
     {
         id              : "lifecycle_a50b31731fed2d91e740",
         for_product     : "savings_account",
-        version         : 1,
         possible_states : [
             "intent",
-            "kyc",
-            "video-kyc",
             "fund-transfer",
+            "kyc",
             "active"
         ],
     }
 ]
-
