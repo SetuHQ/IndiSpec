@@ -14,13 +14,17 @@
         senior_citizen : 5.5,
     },
     starting_date         : "",
-    maturity_date         : "", // Computed
+    maturity_date         : "",
     interest_option       : "Re-invest | Monthly | Quarterly",
     on_maturity           : "Do not renew | Renew principal | Renew principal and interest",
     // TODO: Move out over draft separately?
     has_over_draft        : true,
     over_draft_percentage : 75,
     current_value         : 50063284, // In paise
+    declarations          : {
+        // Only product-specific declarations go here, others are global
+        is_factiva_consented_to : true
+    },
     send_alerts_for       : {
         "maturity-date"  : [
             "sms",
