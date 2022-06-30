@@ -1,31 +1,32 @@
 //  ALERTS  ///////////////////////////////////////////////////////////////////
+// Take events from bank
 {
     user_ref_id : "user_4e98030111faf394caf7",
     alerts      : [
+        // For FIXED DEPOSITS =============================
         {
-            // For FIXED DEPOSITS
             id             : "alerts_a50b31731fed2d91e740",
             for_product    : "fixed_deposit",
             product_ref_id : "fd_0a51391f7d6bc9987b52",
             maturity_date  : [
                 {
                     sms       : true,
-                    frequency : "daily | weekly | monthly",
+                    frequency : "immediate | daily | weekly | monthly",
                 },
                 {
                     whatsapp  : false,
-                    frequency : "daily | weekly | monthly",
+                    frequency : "immediate | daily | weekly | monthly",
                 },
                 {
                     email     : false,
-                    frequency : "daily | weekly | monthly",
+                    frequency : "immediate | daily | weekly | monthly",
                 },
             ],
             nominee_update : [ ],
-            fund_transfers : [ ]
+            fund_transfers : [ ],
         },
+        // For SAVINGS ACCOUNT ============================
         {
-            // For SAVINGS ACCOUNT
             id                 : "alerts_f8fb8f225b910023efb3",
             for_product        : "savings_account",
             product_ref_id     : "fd_0a51391f7d6bc9987b52",

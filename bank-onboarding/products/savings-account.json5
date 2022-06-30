@@ -18,7 +18,7 @@
         interest_rate              : "",
         minumum_balance            : 0, // In paise
         balance_calculation_period : "daily | monthly | quarterly | annual",
-        declarations          : {
+        declarations               : {
             // Only product-specific declarations go here, others are global
             is_factiva_consented_to : true
         }

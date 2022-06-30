@@ -23,6 +23,9 @@
 //  A collection of identifiers pointing to more information about this user
 //  ---------------------------------------------------------------------------
 
+// Defer API calls on first load
+// Separate APIs as needed
+
 {
     user : {
         id             : "user_4e98030111faf394caf7",
