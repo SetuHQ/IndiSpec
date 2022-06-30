@@ -1,16 +1,20 @@
 //  ADDRESSES  ////////////////////////////////////////////////////////////////
 {
-    id                   : "address_ab319748d4bd8bc68a14",
-    user_ref_id          : "user_4e98030111faf394caf7",
-    is_mailing_address   : true,
-    is_permanent_address : true,
-    type                 : "Residential | Commercial",
-    ownership            : "Owned | Rented | Leased",
-    source               : "GSTIN | PAN | Manual",
-    line1                : "",
-    line2                : "",
-    city                 : "",
-    pin                  : "",
-    state                : "",
-    landmark             : "",
+    belongs_to : "user_4e98030111faf394caf7",
+    addresses : [
+        {
+            id                   : "address_ab319748d4bd8bc68a14",
+            is_mailing_address   : true,
+            is_permanent_address : true,
+            type                 : "Residential | Commercial",
+            ownership            : "Owned | Rented | Leased",
+            source               : "GSTIN | PAN | Manual",
+            line1                : "",
+            line2                : "",
+            city                 : "",
+            pin                  : "",
+            state                : "",
+            landmark             : ""
+        }
+    ]
 }

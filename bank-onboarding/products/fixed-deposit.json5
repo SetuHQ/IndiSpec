@@ -1,13 +1,12 @@
 //  FIXED DEPOSIT  ////////////////////////////////////////////////////////////
 {
     id                    : "fd_0a51391f7d6bc9987b52",
-    journey_id            : "journey_481d9fb677c1f712909c",
-    user_ref_id           : "user_4e98030111faf394caf7",
+    journey_ref_id        : "journey_481d9fb677c1f712909c",
+    belongs_to           : "user_4e98030111faf394caf7",
     lifecycle_ref_id      : "lifecycle_31d1cbd9c11ec48e4ee5",
     nominee_ref_id        : "user_5f995979689146b7ea7f",
     destination_account   : "savings_3384a50f1bc8c4121a01",
-//    alerts                : "alerts_a50b31731fed2d91e740",
-    amount                : 5000000, // In paise
+    initial_amount        : 5000000,
     tenure_in_months      : 48,
     interest_rate         : {
         // Could be a longer list, so is this the best representation?
@@ -18,12 +17,37 @@
     maturity_date         : "",
     interest_option       : "Re-invest | Monthly | Quarterly",
     on_maturity           : "Do not renew | Renew principal | Renew principal and interest",
-    // TODO: Move out over draft separately?
     has_over_draft        : true,
     over_draft_percentage : 75,
-    current_value         : 50063284, // In paise
+    descriptor            : {
+        label : "Current value",
+        value : 63483477
+    },
     declarations          : {
         // Only product-specific declarations go here, others are global
         is_factiva_consented_to : true
     },
+    alerts                : [
+        {
+            id             : "alerts_a50b31731fed2d91e740",
+            for_product    : "fixed_deposit",
+            product_ref_id : "fd_0a51391f7d6bc9987b52",
+            maturity_date  : [
+                {
+                    sms       : true,
+                    frequency : "immediate | daily | weekly | monthly",
+                },
+                {
+                    whatsapp  : false,
+                    frequency : "immediate | daily | weekly | monthly",
+                },
+                {
+                    email     : false,
+                    frequency : "immediate | daily | weekly | monthly",
+                },
+            ],
+            nominee_update : [ ],
+            fund_transfers : [ ],
+        },
+    ]
 }

@@ -1,4 +1,4 @@
-// USER  /////////////////////////////////////////////////////////////////////
+// USER  //////////////////////////////////////////////////////////////////////
 //  This is the `user` object. Any customer on the platform is considered a
 //  user. Even `nominees`, are users, just with different amount of info. This
 //  is also done so that a `nominee` can be upgraded to a customer easily with
@@ -23,46 +23,34 @@
 //  A collection of identifiers pointing to more information about this user
 //  ---------------------------------------------------------------------------
 
-// Defer API calls on first load
-// Separate APIs as needed
-
 {
     user : {
-        id             : "user_4e98030111faf394caf7",
-        first_name     : "",
-        last_name      : "",
-        mobile         : "",
-        flags          : {
-            is_setu_app_user       : true,
-            is_first_consent_given : true,
-            is_mobile_verified     : true,
-            is_aadhaar_verified    : true,
-            is_pan_verified        : true,
-            is_email_verified      : true,
-            is_employed            : true,
-            is_video_KYC_complete  : true,
-        },
-        kyc_id         : "kyc_a165e23e5a5c50dea197",
-        documents_id   : "documents_c234e175181526fd9c10",
-        owner_of    : [
-            "p_loan_0a51391f7d6bc9987b52",
-            "fd_0a51391f7d6bc9987b52",
-            "fd_e7b1221c3ec4d6d76819",
-            "cc_0a51391f7d6bc9987b52",
-        ],
-        nominee_for : [
-            "p_loan_0a51391f7d6bc9987b52",
-            "cc_781354aa6c8976b4ae82",
-            "savings_3384a50f1bc8c4121a01",
-        ],
-        addresses : [
-            "address_ab319748d4bd8bc68a14",
-            "address_7b8eec8aaf1b285162d9",
-        ],
-        relationships  : [
+        id                     : "user_4e98030111faf394caf7",
+        first_name             : "",
+        last_name              : "",
+        mobile                 : "",
+        is_setu_app_user       : true,
+        is_first_consent_given : true,
+        is_mobile_verified     : true,
+        is_aadhaar_verified    : true,
+        is_pan_verified        : true,
+        is_email_verified      : true,
+        is_employed            : true,
+        is_video_KYC_complete  : true,
+        products               : [
             {
-                user_ref_id : "user_984eea56d296047a8b39",
-                relation    : "mother",
+                product_id : "fd_0a51391f7d6bc9987b52",
+                descriptor : {
+                    label : "Current value",
+                    value : 5000000
+                }
+            },
+            {
+                product_id : "savings_3384a50f1bc8c4121a01",
+                descriptor : {
+                    label : "Current balance",
+                    value : 8400000
+                }
             }
         ]
     }

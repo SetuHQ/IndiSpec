@@ -1,0 +1,14 @@
+//  RELATIONSHIPS  ////////////////////////////////////////////////////////////
+{
+    belongs_to    : "user_4e98030111faf394caf7",
+    relationships : [
+        {
+            user_id  : "user_984eea56d296047a8b39",
+            relation : "mother",
+        },
+        {
+            user_id  : "user_e28e662a103c2bf26564",
+            relation : "uncle",
+        }
+    ]
+}

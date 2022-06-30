@@ -1,23 +1,24 @@
 //  KYC  //////////////////////////////////////////////////////////////////////
 {
-    id          : "kyc_c234e175181526fd9c10",
-    user_ref_id : "user_4e98030111faf394caf7",
-    personal    : {
-        date_of_birth : "",
-        gender        : "Male | Female | Other",
-        photo         : "URL",
-        city_of_birth : ""
+    belongs_to : "user_4e98030111faf394caf7",
+    kyc         : {
+        personal   : {
+            date_of_birth : "",
+            gender        : "Male | Female | Other",
+            photo         : "URL",
+            city_of_birth : ""
+        },
+        identity   : {
+            aadhaar : "",
+            pan     : "",
+            mobile  : "",
+            email   : "",
+        },
+        employment : {
+            type          : "enum",
+            annual_income : "",
+            employer_name : "",
+            employer_type : "enum"
+        }
     },
-    identity    : {
-        aadhaar : "",
-        pan     : "",
-        mobile  : "",
-        email   : "",
-    },
-    employment  : {
-        type          : "enum",
-        annual_income : "",
-        employer_name : "",
-        employer_type : "enum"
-    }
 }
