@@ -1,6 +1,6 @@
 //  JOURNEY  //////////////////////////////////////////////////////////////////
 {
-    belongs_to    : "user_4e98030111faf394caf7",
+    user_ref_id     : "user_4e98030111faf394caf7",
     id             : "journey_481d9fb677c1f712909c",
     product_type   : "fixed_deposit | savings_account | current_account | credit_card | business_loan | personal_loan",
     journey_status : ""

@@ -1,7 +1,7 @@
 // PRODUCT HOLDINGS  //////////////////////////////////////////////////////////
 // This is a list of products that a user has under them.
 {
-    belongs_to : "user_4e98030111faf394caf7",
+    user_ref_id : "user_4e98030111faf394caf7",
     owner_of    : [
         "p_loan_0a51391f7d6bc9987b52",
         "fd_0a51391f7d6bc9987b52",

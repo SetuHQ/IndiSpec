@@ -1,5 +1,8 @@
 # Bank on-boarding — Changelog
 
+v0.7.1
+- Revert back to `user_ref_id`
+
 v0.7.0
 - Add `Holdings` API to list all products under a user
 - Tweak `Address` API to be be an array of all addresses under a user
@@ -9,7 +12,7 @@ v0.7.0
 - Update `Documents` API to have similar structure to other objects
 - Add an ever-useful `descriptor` object for products
 - Tweak the `Journey` object
-- Rename the boring `user_ref_id` with the more descriptive `belongs_to`
+- Rename the boring `user_ref_id` with the more descriptive `user_ref_id`
  
 v0.6.1
 - Add alerts flags to product objects

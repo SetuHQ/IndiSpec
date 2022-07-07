@@ -2,7 +2,7 @@
 {
     id                    : "fd_0a51391f7d6bc9987b52",
     journey_ref_id        : "journey_481d9fb677c1f712909c",
-    belongs_to           : "user_4e98030111faf394caf7",
+    user_ref_id            : "user_4e98030111faf394caf7",
     lifecycle_ref_id      : "lifecycle_31d1cbd9c11ec48e4ee5",
     nominee_ref_id        : "user_5f995979689146b7ea7f",
     destination_account   : "savings_3384a50f1bc8c4121a01",

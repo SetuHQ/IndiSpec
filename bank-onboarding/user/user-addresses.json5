@@ -1,6 +1,6 @@
 //  ADDRESSES  ////////////////////////////////////////////////////////////////
 {
-    belongs_to : "user_4e98030111faf394caf7",
+    user_ref_id : "user_4e98030111faf394caf7",
     addresses : [
         {
             id                   : "address_ab319748d4bd8bc68a14",
@@ -8,13 +8,13 @@
             is_permanent_address : true,
             type                 : "Residential | Commercial",
             ownership            : "Owned | Rented | Leased",
-            source               : "GSTIN | PAN | Manual",
+            source               : "GSTIN | PAN | Aadhaar | Manual",
             line1                : "",
             line2                : "",
             city                 : "",
             pin                  : "",
             state                : "",
             landmark             : ""
-        }
+        },
     ]
 }

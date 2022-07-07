@@ -1,7 +1,7 @@
 //  ALERTS  ///////////////////////////////////////////////////////////////////
 // Take events from bank
 {
-    belongs_to : "user_4e98030111faf394caf7",
+    user_ref_id : "user_4e98030111faf394caf7",
     alerts      : [
         // For FIXED DEPOSITS =============================
         {

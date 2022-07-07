@@ -1,6 +1,6 @@
 //  KYC  //////////////////////////////////////////////////////////////////////
 {
-    belongs_to : "user_4e98030111faf394caf7",
+    user_ref_id : "user_4e98030111faf394caf7",
     kyc         : {
         personal   : {
             date_of_birth : "",

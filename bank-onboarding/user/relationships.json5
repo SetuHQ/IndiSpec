@@ -1,6 +1,6 @@
 //  RELATIONSHIPS  ////////////////////////////////////////////////////////////
 {
-    belongs_to    : "user_4e98030111faf394caf7",
+    user_ref_id    : "user_4e98030111faf394caf7",
     relationships : [
         {
             user_id  : "user_984eea56d296047a8b39",

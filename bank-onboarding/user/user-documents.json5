@@ -1,6 +1,6 @@
 //  DOCUMENTS  ////////////////////////////////////////////////////////////////
 {
-    belongs_to : "user_4e98030111faf394caf7",
+    user_ref_id : "user_4e98030111faf394caf7",
     documents   : [
         {
             id   : "documents_c234e175181526fd9c10",
